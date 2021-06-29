@@ -1,0 +1,30 @@
+#header-container {
+    background: white;
+    opacity: .85;
+    position: absolute;
+    width: 100%;
+}
+
+#header-container .link {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+    #header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-container .close-button {
+        position: absolute;
+        right: 1rem;
+        top: .5rem;
+        font-size: 1.5rem;
+        color: gray;
+    }
+}
