@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 //Components
 import Home from './Pages/Home';
+import PageNotFound from './Pages/PageNotFound';
 import LinkShelf from './components/NavigationShelf';
 
 function App() {
@@ -12,8 +13,11 @@ function App() {
       <Router>
           <LinkShelf/>
           <Switch>
-              <Route path="/">
+              <Route exact path="/">
                   <Home/>
+              </Route>
+              <Route path="*">
+                  <PageNotFound />
               </Route>
           </Switch>
       </Router>
