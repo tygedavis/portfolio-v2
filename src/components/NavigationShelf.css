@@ -1,13 +1,16 @@
 #header-container {
-    background: white;
-    opacity: .85;
+    background: whitesmoke;
     position: absolute;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #header-container .link {
     color: black;
-    padding: 15px;
+    padding: 25px;
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
@@ -20,11 +23,28 @@
         align-items: center;
     }
 
+    #header-container .link {
+        padding: 15px;
+    }
+
     #header-container .close-button {
         position: absolute;
         right: 1rem;
         top: .5rem;
         font-size: 1.5rem;
         color: gray;
+    }
+
+    #navigation-open-container {
+        background-color: whitesmoke;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
