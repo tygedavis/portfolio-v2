@@ -19,5 +19,5 @@ Completely designed by me with some help from some very talented, open-source ta
 As well as completely updated information and some new features. I also plan on learning from my past mistakes and maintaining this website regularly.
 
 ## Bugs
-If you notice any bugs or issues with my website, please feel free to report the issue via GitHub or let me know [here](https://github.com/tygedavis/portfolio-v2/discussions) in this repositories discussion page.
+If you notice any bugs or issues with my website, please feel free to report the issue [via GitHub](https://github.com/tygedavis/portfolio-v2/issues) or let me know [here](https://github.com/tygedavis/portfolio-v2/discussions) in this repositories discussion page.
 
