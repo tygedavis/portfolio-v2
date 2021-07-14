@@ -1,0 +1,32 @@
+.creditsMain {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creditsMain > * {
+    padding: 20px;
+}
+
+.creditsMain h1 {
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.creditsMain a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.creditsMain img {
+    fill: whitesmoke;
+    padding-left: 5px;
+}
+
+.creditsMain p {
+    color: whitesmoke;
+    font-size: 1.25rem;
+}

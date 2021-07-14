@@ -1,0 +1,35 @@
+.homeName h1 {
+    font-size: 7rem;
+    color: whitesmoke;
+    padding-left: 1%;
+}
+
+.linkedInContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.socialLinks {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.bi-linkedin {
+    fill: gray;
+    transition: fill .5s ease-out .5ms;
+}
+.bi-linkedin:hover {
+    fill: whitesmoke;
+}
+
+.resumeLink {
+    font-size: 1rem;
+    text-decoration: none;
+    color: gray;
+    transition: color .5s ease-out .25ms;
+}
+.resumeLink:hover {
+    color:whitesmoke;
+}
