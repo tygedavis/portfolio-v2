@@ -5,7 +5,7 @@ import './ExternalLink.css';
 
 const ExternalLink = (props) => {
     return (
-        <div className="externalLinkContainer">
+        <div className='externalLinkContainer'>
             <a href={_.get(props, 'link')} target='_blank' rel='noopener noreferrer'
             >{_.get(props, 'text')}
                 <span className='externalLinkImageContainer'>

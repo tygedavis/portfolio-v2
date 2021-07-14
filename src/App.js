@@ -10,17 +10,17 @@ import LinkShelf from './components/NavigationShelf';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
           <LinkShelf/>
           <Switch>
-              <Route exact path="/">
+              <Route exact path='/'>
                   <Home/>
               </Route>
-              <Route path="/credits">
+              <Route path='/credits'>
                   <Credits/>
               </Route>
-              <Route path="*">
+              <Route path='*'>
                   <PageNotFound />
               </Route>
           </Switch>
