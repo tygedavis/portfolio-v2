@@ -12,6 +12,10 @@ const Credits = () => {
         {
             text: 'External Link icon by Icons8',
             link: 'https://icons8.com/icon/88586/external-link'
+        },
+        {
+            text: 'Bootstrap Icons',
+            link: 'https://icons.getbootstrap.com/'
         }
     ];
 
