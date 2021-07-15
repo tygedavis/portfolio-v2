@@ -16,8 +16,8 @@ const Credits = () => {
     ];
 
     return (
-        <div className="creditsContainer">
-            <div className="creditsMain">
+        <div className='creditsContainer'>
+            <div className='creditsMain'>
                 <h1>A Special Thanks to:</h1>
                 {_.map(linkValues, (value, index) => {
                     return (<ExternalLink
@@ -32,9 +32,3 @@ const Credits = () => {
 };
 
 export default Credits;
-
-//Mobile Menu Icon
-//<a href="https://icons8.com/icon/82749/menu">Menu icon by Icons8</a>
-
-//External Link
-// <a href="https://icons8.com/icon/88586/external-link">External Link icon by Icons8</a>
