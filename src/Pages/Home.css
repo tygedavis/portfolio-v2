@@ -4,7 +4,7 @@
     padding-left: 1%;
 }
 
-.linkedInContainer{
+.socialLinkImage{
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -21,6 +21,14 @@
     transition: fill .5s ease-out .5ms;
 }
 .bi-linkedin:hover {
+    fill: whitesmoke;
+}
+
+.bi-github {
+    fill: gray;
+    transition: fill .5s ease-out .5ms;
+}
+.bi-github:hover {
     fill: whitesmoke;
 }
 
